@@ -1,0 +1,29 @@
+.navbar-container{
+    background-color: rgb(49 46 129 );
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.navbar-title{
+    color: #ffff;
+    margin: 1rem;
+
+}
+
+.navbar-links {
+    color: #ffff;
+    
+    display: flex; 
+   
+
+
+}
+
+li{
+
+    list-style-type: none;
+    margin-right: 2rem; 
+}
+
+

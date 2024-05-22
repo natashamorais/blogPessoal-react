@@ -1,0 +1,29 @@
+.footer-container{
+    background-color: rgb(49 46 129 );
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+margin: 1rem;
+}
+
+.footer-text{
+    color: #ffff;
+    margin-bottom: 0;
+
+}
+
+.footer-socials--text{
+    color: #ffff;
+    margin-top: 0;
+
+}
+
+.footer-socials--icons img {
+    width: 2rem;
+    color: #ffff;
+    margin: 0.5rem;
+    margin-top: 0;
+
+}
