@@ -2,7 +2,7 @@ import { createContext, ReactNode, useState } from "react";
 import UsuarioLogin from "../models/UsuarioLogin";
 import { login } from "../services/Service";
 
-interface AuthContextProps {
+export interface AuthContextProps {
     usuario: UsuarioLogin;
     handleLogout(): void;
     handleLogin(usuario: UsuarioLogin): Promise<void>;

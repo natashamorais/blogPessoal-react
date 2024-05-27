@@ -7,9 +7,11 @@ import Login from "./pages/Login/Login";
 import ListaTemas from "./components/Temas/ListaTemas/ListaTemas";
 import FormularioTema from "./components/Temas/FormularioTema/FormularioTema";
 import DeletarTema from "./components/Temas/DeletarTema/DeletarTema";
+import { AuthContext, AuthProvider } from "./contexts/AuthContext";
 
 function App() {
   return (
+    <AuthProvider>
     <BrowserRouter>
       <Navbar />
       <div className="min-h-[80vh]">
@@ -27,6 +29,7 @@ function App() {
 
       <Footer />
     </BrowserRouter>
+    </AuthProvider>
   );
 }
 
